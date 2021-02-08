@@ -47,12 +47,23 @@
     justify-content: space-around;
 }
 
-.box4 .item:last-of-type {
-    align-items: flex-end;
+.last {
+    align-self: flex-end;
 
 }
 
 .box5 {
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.box5 .item .middle {
+    height: auto;
+}
+
+.middle {
+    align-self: center;
 
 }
 
