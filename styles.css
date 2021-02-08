@@ -1,15 +1,61 @@
-.box {
-    width: 100%;
-    height: 500px;
-    background-color:#ccc;
-
+.row {
+    background-color: #370617;
+    padding: 20px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: space-between;
 }
 
 .item {
-    order: 1;
+    width: 78px;
+    height: 78px;
+    margin:20px;
+    border-radius: 12px;
+    background-color: #9D0208;
+}
+
+.box {
+    height: 200px;
+    background-color: #F48C06;
+    display:flex;
+    align-items: flex-end;
+    margin: 20px;
+    border-radius: 12px;
+    flex: 1;
+
+}
+
+.box2 .item {
+    height: auto;
+}
+
+.box2 {
+    align-items: stretch;
+    justify-content: center;
+}
+
+.box3 .item {
+}
+
+
+
+.box3 {
+    justify-content: flex-end;
+
+}
+
+.box4 {
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.box4 .item:last-of-type {
+    align-items: flex-end;
+
+}
+
+.box5 {
+
+}
+
+.box6 {
+
 }
