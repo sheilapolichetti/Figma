@@ -39,6 +39,7 @@
 
 .box3 {
     justify-content: flex-end;
+    align-items: center;
 
 }
 
@@ -58,13 +59,17 @@
 
 }
 
-.box5 .item .middle {
+.box5 .item {
     height: auto;
+}
+
+.box5 .item .middle {
+
 }
 
 .middle {
     align-self: center;
-
+    
 }
 
 .box6 {
