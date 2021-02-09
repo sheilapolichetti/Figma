@@ -4,6 +4,12 @@
     display: flex;
 }
 
+.row2 {
+    background-color: #F48C06;
+    padding: 20px;
+    display: flex;
+}
+
 .item {
     width: 78px;
     height: 78px;
@@ -20,7 +26,22 @@
     margin: 20px;
     border-radius: 12px;
     flex: 1;
+}
 
+.square {
+    height: 200px;
+    margin: 20px;
+    background-color: #03071E;
+    flex: 1; 
+}
+
+.circle {
+    background-color: #748CAB;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
 }
 
 .box2 .item {
@@ -55,23 +76,31 @@
 
 .box5 {
     justify-content: space-around;
-    align-items: stretch;
+    align-items: baseline;
 
 }
 
-.box5 .item {
-    height: auto;
-}
-
-.box5 .item .middle {
-
+.long {
+    height: 140px;
 }
 
 .middle {
+    height: 78px;
     align-self: center;
-    
+}
+
+.txt {
+    margin-top: 30px;
 }
 
 .box6 {
+    justify-content: center;
+    align-items: center;
+}
 
+.box6 .item .center {
+    align-self: stretch;
+}
+.center {
+    width: 35%;
 }
